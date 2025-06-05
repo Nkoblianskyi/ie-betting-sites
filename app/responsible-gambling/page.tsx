@@ -23,12 +23,6 @@ export default function ResponsibleGambling() {
       description: "Free online support and practical advice to people affected by gambling problems",
       phone: null,
     },
-    {
-      name: "BeGambleAware",
-      url: "https://www.begambleaware.org",
-      description: "Advice and guidance for those who gamble and their friends and family",
-      phone: "0808 8020 133",
-    },
   ]
 
   const guidelines = [

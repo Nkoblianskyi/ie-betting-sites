@@ -91,6 +91,7 @@ export function Footer() {
                 Gambling Therapy
               </a>
             </div>
+            
           </div>
         </div>
 
@@ -135,6 +136,9 @@ export function Footer() {
                 className="h-12 p-2 rounded-lg"
               />
             </a>
+            <div className="bg-sunset-orange text-soft-white px-3 py-1 rounded-full text-sm font-bold shadow-sunset-glow animate-neon-flicker">
+              18+
+            </div>
           </div>
         </div>
 
