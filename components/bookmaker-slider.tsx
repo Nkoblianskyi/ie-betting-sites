@@ -80,9 +80,7 @@ export function BookmakerSlider() {
 
                   <div className="bg-gradient-to-r from-green-700 to-yellow-600 text-white px-4 py-3 rounded-xl shadow-lg border-2 border-green-600">
                     <p className="font-bold text-sm leading-tight text-center">
-                      🎁 <span className="text-yellow-300 font-bold">Bet €10</span> →
-                      <span className="text-white font-bold">Get €30</span>
-                      <span className="text-yellow-300"> + €10 Casino</span>
+                      🎁 <span className="text-yellow-300 font-bold">{bookmaker.bonus}</span>
                     </p>
                   </div>
 
@@ -144,9 +142,7 @@ export function BookmakerSlider() {
 
                   <div className="bg-gradient-to-r from-green-700 to-yellow-600 text-white px-6 py-4 rounded-xl shadow-lg border-2 border-green-600">
                     <p className="font-bold text-lg leading-tight text-center">
-                      🎁 <span className="text-yellow-300 font-bold">Bet €10</span> →
-                      <span className="text-white font-bold">Get €30</span>
-                      <span className="text-yellow-300"> + €10 Casino Bonus</span>
+                      🎁 <span className="text-yellow-300 font-bold">{bookmaker.bonus}</span>
                     </p>
                   </div>
 
