@@ -18,7 +18,6 @@ export default function Home() {
       <IrishTrustSection />
       <BestBonuses />
       <RankingMethodology />
-      <ResponsibleGambling />
       <Footer />
       <CookieConsent />
       <DelayedModal />

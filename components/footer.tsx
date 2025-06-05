@@ -83,14 +83,6 @@ export function Footer() {
                 GamCare
               </a>
               <a
-                href="https://www.begambleaware.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-text hover:text-neon-glow-green transition-colors text-sm"
-              >
-                Be Gamble Aware
-              </a>
-              <a
                 href="https://www.gamblingtherapy.org"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -129,18 +121,6 @@ export function Footer() {
                 src="/gamecare.svg"
                 alt="GamCare"
                 className="h-12 bg-white p-2 rounded-lg"
-              />
-            </a>
-            <a
-              href="https://www.begambleaware.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-100 transition-opacity"
-            >
-              <img
-                src="/bgambleaware.svg"
-                alt="BeGambleAware"
-                className="h-12 p-2 rounded-lg"
               />
             </a>
             <a
