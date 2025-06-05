@@ -85,9 +85,8 @@ export function DelayedModal() {
           <div className="flex justify-center items-center mb-1 md:mb-4">
             <span className="text-xl md:text-3xl lg:text-4xl mr-2 md:mr-3">🍀</span>
             <h2 className="text-base md:text-2xl lg:text-3xl xl:text-4xl font-bold text-white">
-              Ireland's Top 3 Betting Sites
+              Ireland's Top Betting Sites
             </h2>
-            <span className="text-xl md:text-3xl lg:text-4xl ml-2 md:ml-3">🇮🇪</span>
           </div>
           <p className="text-white/90 text-xs md:text-base lg:text-lg">Exclusive bonuses for Irish players only</p>
         </div>

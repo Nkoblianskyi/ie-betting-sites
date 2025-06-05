@@ -18,7 +18,7 @@ export function IrishModal({ isOpen, onClose }: IrishModalProps) {
         <div className="flex justify-between items-center p-8 border-b border-emerald-glow/30">
           <div className="flex items-center space-x-3">
             <span className="text-3xl">🍀</span>
-            <h2 className="text-3xl font-celtic font-bold text-pure-white">Ireland's Top 3 Certified Sites</h2>
+            <h2 className="text-3xl font-celtic font-bold text-pure-white">Ireland's Top Certified Sites</h2>
           </div>
           <button
             onClick={onClose}
