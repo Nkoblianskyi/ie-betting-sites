@@ -38,7 +38,7 @@ export function IrishTrustSection() {
         <div className="text-center mb-16">
           <div className="flex justify-center mb-6">
             <div className="bg-emerald-green/20 backdrop-blur-sm px-6 py-3 rounded-full border border-emerald-green/30">
-              <span className="text-emerald-green font-semibold">🇮🇪 Made for Ireland</span>
+              <span className="text-emerald-green font-semibold">Made for Ireland</span>
             </div>
           </div>
 
