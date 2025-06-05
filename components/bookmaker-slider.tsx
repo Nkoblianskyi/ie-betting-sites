@@ -80,7 +80,9 @@ export function BookmakerSlider() {
 
                   <div className="bg-gradient-to-r from-green-700 to-yellow-600 text-white px-4 py-3 rounded-xl shadow-lg border-2 border-green-600">
                     <p className="font-bold text-sm leading-tight text-center">
-                      🎁 <span className="text-yellow-300 font-bold">{bookmaker.bonus}</span>
+                      🎁 <span className="text-yellow-300 font-bold">Bet €10</span> →
+                      <span className="text-white font-bold">Get €30</span>
+                      <span className="text-yellow-300"> + €10 Casino</span>
                     </p>
                   </div>
 
@@ -127,13 +129,13 @@ export function BookmakerSlider() {
 
               {/* Desktop/Tablet Layout */}
               <div className="hidden md:flex items-center gap-6">
-                <div className="bg-clover-mint/10 rounded-xl p-4 backdrop-blur-sm flex-shrink-0">
+                <div className="bg-clover-mint/10 rounded-xl p-4 backdrop-blur-sm flex-shrink-0 w-[140px] md:w-[200px] flex items-center justify-center">
                   <Image
                     src={bookmaker.logo || "/placeholder.svg"}
                     alt={bookmaker.name}
                     width={200}
-                    height={60}
-                    className="filter brightness-110"
+                    height={80}
+                    className="filter brightness-110 w-full h-auto object-contain"
                   />
                 </div>
 
@@ -141,8 +143,10 @@ export function BookmakerSlider() {
                   <h3 className="text-xl font-bold text-soft-white">{bookmaker.name}</h3>
 
                   <div className="bg-gradient-to-r from-green-700 to-yellow-600 text-white px-6 py-4 rounded-xl shadow-lg border-2 border-green-600">
-                    <p className="font-bold text-xl leading-tight text-center">
-                      🎁 <span className="text-yellow-300 font-bold">{bookmaker.bonus}</span>
+                    <p className="font-bold text-lg leading-tight text-center">
+                      🎁 <span className="text-yellow-300 font-bold">Bet €10</span> →
+                      <span className="text-white font-bold">Get €30</span>
+                      <span className="text-yellow-300"> + €10 Casino Bonus</span>
                     </p>
                   </div>
 
@@ -172,9 +176,9 @@ export function BookmakerSlider() {
                   </div>
                 </div>
 
-                <div className="flex-shrink-0">
+                <div className="min-w-[200px]">
                   <div
-                    className="bg-green-600 hover:bg-green-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all inline-flex items-center group border-2 border-green-500 shadow-lg"
+                    className="w-full bg-green-600 hover:bg-green-500 text-white px-4 py-4 rounded-xl font-bold text-base transition-all inline-flex items-center justify-center group border-2 border-green-500 shadow-lg whitespace-nowrap"
                     style={{
                       backgroundColor: "#059669",
                       boxShadow: "0 0 15px #059669",
@@ -182,8 +186,8 @@ export function BookmakerSlider() {
                   >
                     👉 Claim Bonus
                     <ExternalLink
-                      size={18}
-                      className="ml-3 group-hover:translate-x-2 transition-transform duration-300"
+                      size={16}
+                      className="ml-2 group-hover:translate-x-2 transition-transform duration-300"
                     />
                   </div>
                 </div>
