@@ -19,13 +19,12 @@ export function FloatingHeader() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-rich-graphite/95 backdrop-blur-md shadow-emerald" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-rich-graphite/95 backdrop-blur-md shadow-emerald" : "bg-transparent"
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center space-x-2 group">
+          <Link href="/" className="flex items-center space-x-2 group mb-4">
             <div className="relative">
               <div className="w-10 h-10 bg-emerald-green rounded-full flex items-center justify-center shadow-emerald group-hover:animate-emerald-pulse">
                 <span className="text-lg">🍀</span>
@@ -33,7 +32,6 @@ export function FloatingHeader() {
             </div>
             <div className="hidden md:block">
               <span className="text-soft-white font-bold text-lg">IeTopBettingSites</span>
-
             </div>
           </Link>
 
@@ -81,7 +79,6 @@ export function FloatingHeader() {
             </div>
             <div className="hidden md:flex items-center space-x-1 text-clover-mint text-sm">
               <Shield size={14} className="text-emerald-green" />
-              
               <span>Licensed</span>
               <Image src="/ireland.png" alt="IE" width={14} height={14} />
             </div>
@@ -92,8 +89,8 @@ export function FloatingHeader() {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-emerald-green/20">
-            <nav className="flex flex-col space-y-3">
+          <div className="md:hidden py-6 px-4 mx-4 mt-2 mb-4 border-2 border-emerald-green/30 bg-rich-graphite/95 backdrop-blur-md rounded-xl shadow-emerald">
+            <nav className="flex flex-col space-y-4">
               <a
                 href="#rankings"
                 onClick={(e) => {
@@ -104,9 +101,9 @@ export function FloatingHeader() {
                   }
                   setIsMenuOpen(false)
                 }}
-                className="text-clover-mint hover:text-emerald-green transition-colors cursor-pointer"
+                className="text-clover-mint hover:text-emerald-green transition-colors cursor-pointer py-2 px-3 rounded-lg hover:bg-emerald-green/10 font-medium"
               >
-                Rankings
+                🏆 Rankings
               </a>
               <a
                 href="#bonuses"
@@ -118,18 +115,21 @@ export function FloatingHeader() {
                   }
                   setIsMenuOpen(false)
                 }}
-                className="text-clover-mint hover:text-emerald-green transition-colors cursor-pointer"
+                className="text-clover-mint hover:text-emerald-green transition-colors cursor-pointer py-2 px-3 rounded-lg hover:bg-emerald-green/10 font-medium"
               >
-                Bonuses
+                🍀 Bonuses
               </a>
-              <Link href="/privacy" className="text-clover-mint hover:text-emerald-green transition-colors">
-                Privacy
+              <Link
+                href="/privacy"
+                className="text-clover-mint hover:text-emerald-green transition-colors py-2 px-3 rounded-lg hover:bg-emerald-green/10 font-medium"
+              >
+                🛡️ Privacy
               </Link>
               <Link
                 href="/responsible-gambling"
-                className="text-clover-mint hover:text-emerald-green transition-colors"
+                className="text-clover-mint hover:text-emerald-green transition-colors py-2 px-3 rounded-lg hover:bg-emerald-green/10 font-medium"
               >
-                Safe Gaming
+                🎯 Safe Gaming
               </Link>
             </nav>
           </div>
